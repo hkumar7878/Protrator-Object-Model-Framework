@@ -1,0 +1,25 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "protractor framework",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor outputjs/conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.5",
+    "chercher-tech-jasmine-reporter": "0.0.7",
+    "exceljs": "^1.6.3",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "~10.5.2",
+    "jasmine": "3.1.0",
+    "protractor": "~5.3.2",
+    "typescript": "~2.9.2"
+  }
+}
