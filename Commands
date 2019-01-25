@@ -1,1 +1,5 @@
 node_modules/.bin/webdriver-manager start
+
+
+// command to committ and push the code to remote
+
