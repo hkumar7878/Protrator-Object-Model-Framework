@@ -17,7 +17,7 @@ export let config : Config ={
     },
 
     //specs:["./specs/Calculator_Script1.js"],
-    specs:["./PageObjectModel/Spec/TC_06_Test_Alerts.js"],
+    specs:["./PageObjectModel/Spec/TC_07_Wait.js"],
     seleniumAddress : 'http://localhost:4444/wd/hub'
 
 }
