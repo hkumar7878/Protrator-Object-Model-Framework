@@ -9,7 +9,7 @@ class genericUtil {
     }
     static clickUsingXpath(xp) {
         protractor_1.browser.wait(protractor_2.ExpectedConditions.presenceOf(protractor_1.element(protractor_1.by.xpath(xp))), 8000);
-        protractor_1.element(protractor_1.by.xpath(xp)).click;
+        protractor_1.element(protractor_1.by.xpath(xp)).click();
     }
 }
 exports.genericUtil = genericUtil;

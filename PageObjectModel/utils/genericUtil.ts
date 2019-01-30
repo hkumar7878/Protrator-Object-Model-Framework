@@ -13,7 +13,7 @@ export class genericUtil
         public static clickUsingXpath(xp:string)
         {
             browser.wait(ec.presenceOf(element(by.xpath(xp))),8000)
-            element(by.xpath(xp)).click
+            element(by.xpath(xp)).click()
         }
 
 }
