@@ -21,6 +21,4 @@ it("Explicit wait example", function(){
 
 
 })
-
-
 })

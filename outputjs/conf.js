@@ -14,7 +14,7 @@ exports.config = {
         }));
     },
     //specs:["./specs/Calculator_Script1.js"],
-    specs: ["./PageObjectModel/Spec/TC_08_ExplicitWait.js"],
+    specs: ["./PageObjectModel/Spec/TC_09_TimeOutExample.js"],
     seleniumAddress: 'http://localhost:4444/wd/hub'
 };
 //# sourceMappingURL=conf.js.map
