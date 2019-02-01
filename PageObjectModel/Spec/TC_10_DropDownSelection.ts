@@ -10,10 +10,10 @@ describe("Drop down ex", function(){
 
         browser.ignoreSynchronization=true;
         browser.get('http://www.globalsqa.com/demo-site/select-dropdown-menu/');
-        
+        //element(By.xpath("//select")).click
         let dropDown_Obj= new DropDown_Util(element(By.xpath("//select")));
 
-        dropDown_Obj
+        dropDown_Obj.selectByVisibleText("Cyprus")
 
         browser.sleep(5000)
     })

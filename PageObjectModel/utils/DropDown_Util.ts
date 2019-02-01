@@ -10,8 +10,8 @@ export class DropDown_Util
 
     public selectByVisibleText(txt:String)
     {
-        this.actualDropDown.click
-        this.actualDropDown.element(By.xpath("//option[text()='"+txt+"']")).click
-        
+        this.actualDropDown.click()
+        this.actualDropDown.element(By.xpath("//option[text()='"+txt+"']")).click()
+
     }
 }
