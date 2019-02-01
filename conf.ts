@@ -17,7 +17,7 @@ export let config : Config ={
     },
 
     //specs:["./specs/Calculator_Script1.js"],
-    specs:["./PageObjectModel/Spec/TC_09_TimeOutExample.js"],
+    specs:["./PageObjectModel/Spec/TC_10_DropDownSelection.js"],
     seleniumAddress : 'http://localhost:4444/wd/hub'
 
 }
